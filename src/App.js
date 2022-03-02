@@ -1,4 +1,4 @@
-
+import Draggable from 'react-draggable';
 import './Aps.css';
 import { useEffect,useState} from 'react';
 function App() {
@@ -38,12 +38,13 @@ console.log(api.postal)
   return (
     
     <div className='main'>
-      
+      <Draggable>
+
 <div className='innermain'>
 
 
   <div className='heading'>
-  Heading 
+ <b> Heading </b>
   <hr/>
   </div>
   <div>
@@ -83,6 +84,7 @@ console.log(api.postal)
 </div>
   </div>
     </div>
+    </Draggable>
     </div>
   );
 }
