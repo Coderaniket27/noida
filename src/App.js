@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 
 import './Aps.css';
 import { useEffect,useState} from 'react';
@@ -43,8 +42,7 @@ console.log(api.postal)
 <div className='innermain'>
 
 
-  <div className='heading'
->
+  <div className='heading'>
   Heading 
   <hr/>
   </div>
